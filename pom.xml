@@ -4,19 +4,19 @@
 
   <groupId>pl.khayn.annotations</groupId>
   <artifactId>pl.khayn.annotations</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>pl.khayn.annotations</name>
-  <url>http://maven.apache.org</url>
+  <url>https://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <apache.commons.version>3.7</apache.commons.version>
-	<guava.version>29.0-jre</guava.version>
+    <apache.commons.version>3.13.0</apache.commons.version>
+	<guava.version>32.1.2-jre</guava.version>
 		
-    <maven.compiler.source>1.8</maven.compiler.source>
-	<maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+	<maven.compiler.target>17</maven.compiler.target>
   </properties>
 
 	<build>
@@ -28,7 +28,7 @@
 					<source>${maven.compiler.source}</source>
 					<target>${maven.compiler.target}</target>
 				</configuration>
-				<version>2.3.2</version>
+				<version>3.11.0</version>
 			</plugin>
 		
 		</plugins>
